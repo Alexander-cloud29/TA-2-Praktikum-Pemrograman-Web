@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio | Alexander</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========= NAVBAR ========= -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Alexander<span> Lawrensius</span></h1>
+      <ul class="nav-links">
+        <li><a href="#tentang" class="active">Tentang</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== SECTION TENTANG ========== -->
+  <section id="tentang" class="tentang">
+    <div class="container">
+      <img src="Foto.jpg" alt="Foto Saya" class="foto-saya" />
+      <div class="info">
+        <h2>Halo, Saya <span>Alexander Lawrensius</span></h2>
+        <p>
+          Saya mahasiswa Teknik Informatika yang berfokus pada bidang 
+          <b>Internet of Things (IoT)</b> dan <b>Computer Network</b>. 
+          Saya senang membuat proyek yang inovatif dan bermanfaat, 
+          serta selalu tertarik belajar teknologi baru yang dapat 
+          meningkatkan efisiensi sistem.
+        </p>
+        <a href="#proyek" class="btn">Lihat Proyek Saya</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTION PROYEK ========== -->
+  <section id="proyek" class="proyek">
+    <h2>Proyek Saya</h2>
+    <div class="project-grid">
+
+      <div class="card">
+        <img src="iot.jpg" alt="Proyek 1">
+        <div class="card-content">
+          <h3>Security System IoT</h3>
+          <p>Sistem keamanan menggunakan ESP32 dan beberapa sensor seperti DHT11, PIR, dan Ultrasonic.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="siakad.jpg" alt="Proyek 2">
+        <div class="card-content">
+          <h3>Sistem Akademik Online</h3>
+          <p>Aplikasi manajemen data mahasiswa dan dosen berbasis web dengan dashboard responsif.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="jk.jpg" alt="Proyek 3">
+        <div class="card-content">
+          <h3>Jaringan Komputer</h3>
+          <p>Perancangan jaringan komputer untuk perusahaan dua lantai dengan enam departemen.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SECTION KONTAK ========== -->
+  <section id="kontak" class="kontak">
+    <h2>Hubungi Saya</h2>
+    <p>Anda dapat menghubungi saya melalui platform berikut atau langsung isi formulir di bawah ini:</p>
+
+    <div class="sosmed">
+      <a href="mailto:alexanderlawrensius29@gmail.com" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon">
+        Email
+      </a>
+      <a href="https://wa.me/6282374000151" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Icon">
+        WhatsApp
+      </a>
+      <a href="https://instagram.com/alexander_lawrensius02" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon">
+        Instagram
+      </a>
+    </div>
+
+    <!-- FORM KONTAK -->
+    <form class="form-kontak" action="mailto:alexanderlawrensius29@gmail.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="Nama" required placeholder="Masukkan nama Anda">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="Email" required placeholder="Masukkan email Anda">
+      </div>
+
+      <div class="form-group">
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="Pesan" rows="5" required placeholder="Tulis pesan Anda di sini..."></textarea>
+      </div>
+
+      <button type="submit" class="btn kirim-btn">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <p>&copy; 2025 Alexander Lawrensius | Web Portofolio</p>
+  </footer>
+
+</body>
+</html>
